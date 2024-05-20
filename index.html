@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài học về api</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="hOANG.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#">
+            <div class="row">
+                <label>nhập</label>
+                <textarea id="inputText"></textarea>
+            </div>
+            <div class="row1">
+                <label>chọn giọng đọc</label>
+                <div class="outer">
+                    <select></select>
+                </div>
+            </div>
+            <button id="speechBtn">click để đọc</button>
+        </form>
+        <form action="#">
+            <div class="row">
+                <label>dịch</label>
+                <textarea id="translatedText" readonly></textarea>
+            </div>
+            <button id="translateBtn">click để dịch</button>
+            <button id="clearBtn">click để xóa</button> 
+        </form>
+        <i id="toggle" class="fas fa-sun"></i>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
